@@ -7,12 +7,14 @@
 html h1{
     font-family: 'Source Code Pro', monospace;
     /* border: none; */
+
    
 }
 .navbars{
-    background-color:#242424f0;
     height: auto;
     color: #fff;
+    position:absolute;
+    width: 100%;
 
 }
 
@@ -31,6 +33,7 @@ html h1{
    margin-left: 2.5rem;
    font-size: 1.5rem;
    font-family: 'Source Code Pro', monospace;
+   color: #fff;
 }
 
 @media (max-width:386px){
@@ -46,11 +49,29 @@ html h1{
   padding-left: 0;
 }
 
+.navbars{
+    position:relative;
+    background-color: #242424f0;
+}
 }
 
+.square ,.square2{
+        width: 30px;
+        height:30px;
+        border: 1px solid black;
+        position: relative;
+        background-color: #fff;
+        margin-top:0.5rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        float: left;
+        margin-right:10px;
+}
 
-
-
+.hidden{
+    display: none;
+}
+  
 
 
 /* LANDING PAGE *******************************************************************/
