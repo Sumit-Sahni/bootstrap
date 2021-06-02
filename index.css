@@ -36,7 +36,7 @@ html h1{
    color: #fff;
 }
 
-@media (max-width:386px){
+@media (max-width:686px){
     .nav-1{
         text-align: center;
         padding-left: 0rem;
